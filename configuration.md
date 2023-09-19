@@ -60,6 +60,7 @@ The following configuration has been done:
      3. Added `rua=mailto:dmarc-reports@markavenue.sk` to DMARC DNS record.
 
 13. Verified markavenue.sk on GitHub by adding `_github-challenge-markavenue-org.markavenue.sk` and `_github-challenge-markavenue-org.www.markavenue.sk` TXT DNS records.
+14. Enabled DMARC Management for markavenue.sk in Cloudflare and appended `,bae43f485fca44fab749cd5780b41997@dmarc-reports.cloudflare.net` to RUA attribute of the DMARC DNS record.
 
 [mta-sts]: https://github.com/markavenue/mta-sts
 [Redirect example.com to www.example.com]: https://community.cloudflare.com/t/redirect-example-com-to-www-example-com/78348
