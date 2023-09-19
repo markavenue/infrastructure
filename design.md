@@ -30,7 +30,7 @@ Websupport Webhosting was chosen to handle outbound email messages because:
 
 ## Website
 
-The website is implemented as a static site because that way:
+The first website was implemented as a static site because that way:
 
 - It can be served for free
 - We don't have to worry about server-side issues
@@ -44,3 +44,5 @@ Cloudflare was chosen to host the website because:
 - Provides advanced features like custom HTTP headers and redirects
 - Provides Direct Upload for custom Continuous Delivery
 - Server-side functionality can be added easily using Pages Functions
+
+The new website is implemented in WordPress on Websupport because that is what the developer that Jan chosen wants to use. This website infrastructure in Websupport is not covered by this documentation as the developer has not shown interest in contributing here.

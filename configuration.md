@@ -61,6 +61,8 @@ The following configuration has been done:
 
 13. Verified markavenue.sk on GitHub by adding `_github-challenge-markavenue-org.markavenue.sk` and `_github-challenge-markavenue-org.www.markavenue.sk` TXT DNS records.
 14. Enabled DMARC Management for markavenue.sk in Cloudflare and appended `,bae43f485fca44fab749cd5780b41997@dmarc-reports.cloudflare.net` to RUA attribute of the DMARC DNS record.
+15. Pointed `www.markavenue.sk` to `37.9.175.181` and `2a00:4b40:aaaa:2007:0000:0000:0000:0005` with proxying enabled. These IP addresses came from Websupport DNS configuration for markavenue.sk.
+16. Created `www.markavenue.sk` TLS certificate in Websupport.
 
 [mta-sts]: https://github.com/markavenue/mta-sts
 [Redirect example.com to www.example.com]: https://community.cloudflare.com/t/redirect-example-com-to-www-example-com/78348
