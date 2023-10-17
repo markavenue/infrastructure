@@ -64,6 +64,7 @@ The following configuration has been done:
 15. Pointed `www.markavenue.sk` to `37.9.175.181` and `2a00:4b40:aaaa:2007:0000:0000:0000:0005` with proxying enabled. These IP addresses came from Websupport DNS configuration for markavenue.sk.
 16. Created `www.markavenue.sk` TLS certificate in Websupport.
 17. Removed `www.markavenue.sk` custom domain from `markavenue` project in Cloudflare Pages as per certificate renewal email from Cloudflare, which told us to remove the unused hostname.
+18. Changed CAA DNS record for markavenue.sk from `0 issue ;` to `0 issue "letsencrypt.org"` to make sure Let's Encrypt will always be able to issue certificates for Websupport.
 
 [mta-sts]: https://github.com/markavenue/mta-sts
 [Redirect example.com to www.example.com]: https://community.cloudflare.com/t/redirect-example-com-to-www-example-com/78348
